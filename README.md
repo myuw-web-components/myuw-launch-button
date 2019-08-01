@@ -25,6 +25,7 @@ Use the component's HTML tag wherever you want:
 <myuw-launch-button
     url=""
     buttonText=""
+    aria-label=""
 >
 </myuw-launch-button>
 ```
