@@ -17,8 +17,11 @@
               padding: 24px;
             }
 
-            p.title {
+            h2.title {
               padding: 16px 30px;
+            }
+            p.explananda {
+              padding: 8px 30px;
             }
         </style>
         <!-- Web component polyfill loader -->
@@ -41,18 +44,38 @@
             app-name="Launch Button Demo">
         </myuw-app-bar>
         <div class="demo__container">
-            <p class="title">Launch Button: specifying only url</p>
+            <h2 class="title">Launch Button: specifying only url and aria-label</h2>
+            <p class="explananda">When accepting the default visual button label, a more specific
+              aria-label will always be needed, so that a screen reader user
+              does not face a page full of links labeled "Launch full app".
+            </p>
             <p>
               <myuw-launch-button
                 url="https://my.wisc.edu/web/apps/details/my-professional-development"
+                aria-label="Open My Professional Development details page"
               >
               </myuw-launch-button>
             </p>
-          <p class="title">Launch Button: also specifying buttonText</p>
+          <h2 class="title">Launch Button: also specifying buttonText</h2>
+          <p class="explananda">Some button text may work fine for visual browser users
+            apprehending the launch button in the context of its widget, but
+            still needs further clarified by an aria-label to make the button
+            understandable in isolation.
+          </p>
           <p>
-            <myuw-launch-button 
+            <myuw-launch-button
               url="https://my.wisc.edu/web/apps/details/my-professional-development"
               buttonText="Open details page"
+              aria-label="Open My Professional Development details page"
+            >
+            </myuw-launch-button>
+          </p>
+          <h2 class="title">Launch Button: using buttonText as effecive ARIA label</h2>
+          <p class="explananda">Where the buttonText sufficiently clarifies what will happen when the user activates the launch button, no explicit aria-label is needed.</p>
+          <p>
+            <myuw-launch-button
+              url="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics"
+              buttonText="Learn about ARIA"
             >
             </myuw-launch-button>
           </p>
