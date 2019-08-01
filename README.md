@@ -1,6 +1,5 @@
 # myuw-launch-button
 
-# ADD A SCREENSHOT
 ![Screenshot showing an example of a launch button](launch-button.png "Launch Button")
 
 A button that allows users to launch a widget.
