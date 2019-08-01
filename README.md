@@ -24,7 +24,7 @@ Use the component's HTML tag wherever you want:
 ```HTML
 <myuw-launch-button
     url=""
-    body-text=""
+    buttonText=""
 >
 </myuw-launch-button>
 ```
