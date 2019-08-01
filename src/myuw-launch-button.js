@@ -27,6 +27,7 @@ class MyUWLaunchButton extends HTMLElement {
     return [
       'url',
       'buttonText',
+      'aria-label'
     ];
   }
 
@@ -50,6 +51,7 @@ class MyUWLaunchButton extends HTMLElement {
     // Get all attributes
     this['url'] = this.getAttribute('url') || '';
     this['buttonText'] = this.getAttribute('buttonText') || '';
+    this['aria-label'] = this.getAttribute('aria-label') || '';
 
     this.$button = this.shadowRoot.getElementById('launch-button');
 
@@ -64,6 +66,9 @@ class MyUWLaunchButton extends HTMLElement {
   updateComponent() {
     this.$button.setAttribute('href', this['url']);
     this.$button.innerText = this['buttonText'] ? this['buttonText'] : 'Launch full app';
+    if (this['aria-label']) {
+      this.$button.setAttribute('aria-label', this['aria-label']);
+    }
   }
 }
 
