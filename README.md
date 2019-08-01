@@ -32,7 +32,7 @@ Use the component's HTML tag wherever you want:
 ### Configurable properties via attributes
 
 - **url:** (Required) Set the URL the launch button should link to
-- **buttonText:** Set the text inside of the button. If attribute is not present "Launch Full App" will appear
+- **buttonText:** Set the text inside of the button. If attribute is not present "Launch full app" will appear
 
 ## Development and contribution
 
