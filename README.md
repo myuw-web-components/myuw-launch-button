@@ -24,7 +24,7 @@ Use the component's HTML tag wherever you want:
 ```HTML
 <myuw-launch-button
     url=""
-    buttonText=""
+    button-text=""
     aria-label=""
 >
 </myuw-launch-button>
@@ -33,11 +33,11 @@ Use the component's HTML tag wherever you want:
 ### Configurable properties via attributes
 
 - **url:** (Required) Set the URL the launch button should link to
-- **buttonText:** Set the text inside of the button. If attribute is not present "Launch full app" will appear
+- **button-text:** Set the text inside of the button. If attribute is not present "Launch full app" will appear
 - **aria-label:** Set the ARIA label. If not present no aria label is set. You
-  should use this to clarify what the launch button does when the buttonText
+  should use this to clarify what the launch button does when the button-text
   assumes visual context. That is, in a widget named "LastPass Enterprise" the
-  default buttonText of "Launch full app" might be quite appropriate as the
+  default button-text of "Launch full app" might be quite appropriate as the
   visual treatment for the launch button in the context of a box with that name,
   but for say a screen reader jumping to this hyperlink the appropriate label
   might be "Launch LastPass Enterprise" so that it is clear what this link does
