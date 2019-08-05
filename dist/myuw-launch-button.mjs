@@ -65,7 +65,7 @@ class MyUWLaunchButton extends HTMLElement {
   */
   updateComponent() {
     this.$button.setAttribute('href', this['url']);
-    this.$button.innerText = this['buttonText'] ? this['buttonText'] : 'Launch Full App';
+    this.$button.innerText = this['buttonText'] ? this['buttonText'] : 'Launch full app';
   }
 }
 

@@ -208,7 +208,7 @@
       key: "updateComponent",
       value: function updateComponent() {
         this.$button.setAttribute('href', this['url']);
-        this.$button.innerText = this['buttonText'] ? this['buttonText'] : 'Launch Full App';
+        this.$button.innerText = this['buttonText'] ? this['buttonText'] : 'Launch full app';
       }
     }], [{
       key: "observedAttributes",
