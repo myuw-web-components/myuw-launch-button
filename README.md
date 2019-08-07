@@ -9,8 +9,8 @@ A button that allows users to launch a widget. This web component is only the "L
 Add the following import to your page's `<head>`:
 
 ```html
-<script type="module" src="https://unpkg.com/@myuw-web-components/myuw-badge@^1?module"></script>
-<script nomodule scr="https://unpkg.com/@myuw-web-components/myuw-badge@^1"></script>
+<script type="module" src="https://unpkg.com/@myuw-web-components/myuw-launch-button@^1?module"></script>
+<script nomodule scr="https://unpkg.com/@myuw-web-components/myuw-launch-button@^1"></script>
 ```
 
 **Important**: For responsiveness to many screen sizes, ensure you have included the viewport meta tag in your application:

@@ -1,3 +1,4 @@
 # myuw-launch-button versions
 
-(Not yet released.)
+## 1.0.0
+First release of launch button component.
