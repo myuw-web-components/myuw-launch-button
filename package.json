@@ -1,4 +1,5 @@
 {
+  "version": "1.0.2",
   "scripts": {
     "serve:element": "ng serve -o --project=element",
     "build:prod:element": "ng build --configuration=production --base-href=/ --stats-json --project=element",
@@ -34,5 +35,21 @@
     "tslint": "~5.18.0",
     "typescript": "3.5.3",
     "webpack-bundle-analyzer": "^3.4.1"
-  }
+  },
+  "name": "@myuw-web-components/myuw-launch-button",
+  "description": "A launch button for MyUW Cards.",
+  "main": "element/element.js",
+  "files": [
+    "element"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myuw-web-components/myuw-launch-button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myuw-web-components/myuw-launch-button/issues"
+  },
+  "homepage": "https://github.com/myuw-web-components/myuw-launch-button#readme"
 }
